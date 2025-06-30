@@ -4,7 +4,7 @@
 
 *NAME*: SATHYA MURTHY E
 
-*INTERN ID:CT08DK896
+*INTERN ID*:CT08DK896
 
 *DURATION*: 8 WEEKS
 
@@ -80,4 +80,4 @@ cat_cols = ['Sex', 'Embarked']
 preprocessor = ColumnTransformer([
 ('num', num_pipeline, num_cols),
 ('cat', cat_pipeline, cat_cols)
-])
+])##
